@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>D:\00. system\01. desktop\cpm_clickonce\|D:\00. system\01. desktop\cpm\|ftp://files.000webhost.com/|ftp://files.000webhost.com/storage/h1/598/482598/public_html/clickonce/|ftp://files.000webhost.com/clickonce/</PublishUrlHistory>
+    <InstallUrlHistory>http://custompilot.co.kr/install/windows/|http://www.custompilot.co.kr/install/windows/|http://130.211.179.167/install/windows/|http://custompilot.co.kr/|http://130.211.179.167/</InstallUrlHistory>
+    <SupportUrlHistory>http://custompilot.net</SupportUrlHistory>
+    <UpdateUrlHistory>http://custompilot.co.kr/install/windows/</UpdateUrlHistory>
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory />
+    <FallbackCulture>ko-KR</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnableSecurityDebugging>false</EnableSecurityDebugging>
+  </PropertyGroup>
+</Project>

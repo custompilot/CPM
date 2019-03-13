@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FORM_ABOUT_CAPTION" xml:space="preserve">
+    <value>Custompilot Software Info</value>
+  </data>
+  <data name="MENU_CLEAR" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="MENU_CONNECT" xml:space="preserve">
+    <value>Connect</value>
+  </data>
+  <data name="MENU_DISCONNECT" xml:space="preserve">
+    <value>Disconnect</value>
+  </data>
+  <data name="MENU_EXIT" xml:space="preserve">
+    <value>Exit(&amp;X)</value>
+  </data>
+  <data name="MENU_EXPORT" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="MENU_FACTORYRESET" xml:space="preserve">
+    <value>Factory Reset</value>
+  </data>
+  <data name="MENU_FILE" xml:space="preserve">
+    <value>File(&amp;F)</value>
+  </data>
+  <data name="MENU_FIRMWAREVER" xml:space="preserve">
+    <value>Firmware Ver:</value>
+  </data>
+  <data name="MENU_HELP" xml:space="preserve">
+    <value>Help(&amp;H)</value>
+  </data>
+  <data name="MENU_HELP_ABOUT" xml:space="preserve">
+    <value>About custompilot(&amp;A)</value>
+  </data>
+  <data name="MENU_HELP_DRIVER" xml:space="preserve">
+    <value>Install USB Driver</value>
+  </data>
+  <data name="MENU_HELP_SUPPORT" xml:space="preserve">
+    <value>Support Online(&amp;O)</value>
+  </data>
+  <data name="MENU_IMU" xml:space="preserve">
+    <value>IMU</value>
+  </data>
+  <data name="MENU_IMU_CAL" xml:space="preserve">
+    <value>Calibration</value>
+  </data>
+  <data name="MENU_OPEN" xml:space="preserve">
+    <value>Open(&amp;O)</value>
+  </data>
+  <data name="MENU_REPORT" xml:space="preserve">
+    <value>Report(&amp;R)</value>
+  </data>
+  <data name="MENU_SAVE" xml:space="preserve">
+    <value>Save(&amp;S)</value>
+  </data>
+  <data name="MENU_SETTING" xml:space="preserve">
+    <value>Setting(&amp;S)</value>
+  </data>
+  <data name="MESSAGE_ALERT" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="MESSAGE_CANCEL" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="MESSAGE_COM_SELECT" xml:space="preserve">
+    <value>Select COM port</value>
+  </data>
+  <data name="MESSAGE_ERROR" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="MESSAGE_NO" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="MESSAGE_OVERWRITE_CPM" xml:space="preserve">
+    <value>This operation overwrites the data on the connected device.
+Do you want to continue?</value>
+  </data>
+  <data name="MESSAGE_WARNING_REPORT_RESET" xml:space="preserve">
+    <value>Warning!\nAll reports will be deleted.\nData can not be recovered.\nDo you really want to delete?</value>
+  </data>
+  <data name="MESSAGE_YES" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="PAGE_FIRM_CONSOLE" xml:space="preserve">
+    <value>Console</value>
+  </data>
+  <data name="PAGE_FIRM_DISCONNECTED" xml:space="preserve">
+    <value>Disconnected</value>
+  </data>
+  <data name="PAGE_FIRM_DOWNLOAD" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="PAGE_FIRM_FILE" xml:space="preserve">
+    <value>File:</value>
+  </data>
+  <data name="PAGE_FIRM_FIRMWARE" xml:space="preserve">
+    <value>firmware:</value>
+  </data>
+  <data name="PAGE_FIRM_FIRMWAREBACKUP" xml:space="preserve">
+    <value>Firmware Backup</value>
+  </data>
+  <data name="PAGE_FIRM_FIRMWAREUPLOAD" xml:space="preserve">
+    <value>Firmware upload</value>
+  </data>
+  <data name="PAGE_FIRM_INFORMATION" xml:space="preserve">
+    <value>Board Information</value>
+  </data>
+  <data name="PAGE_FIRM_NAME" xml:space="preserve">
+    <value>name:</value>
+  </data>
+  <data name="PAGE_FIRM_OPEN" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="PAGE_FIRM_PRODUCTID" xml:space="preserve">
+    <value>product id:</value>
+  </data>
+  <data name="PAGE_FIRM_SAVE" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="PAGE_FIRM_SET" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="PAGE_FIRM_STATE" xml:space="preserve">
+    <value>state:</value>
+  </data>
+  <data name="PAGE_FIRM_UPLOAD" xml:space="preserve">
+    <value>Upload</value>
+  </data>
+  <data name="PAGE_FIRM_VER" xml:space="preserve">
+    <value>Ver:</value>
+  </data>
+  <data name="PAGE_MODE_A" xml:space="preserve">
+    <value>Mode1:</value>
+  </data>
+  <data name="PAGE_MODE_B" xml:space="preserve">
+    <value>Mode2:</value>
+  </data>
+  <data name="PAGE_MODE_C" xml:space="preserve">
+    <value>Mode3:</value>
+  </data>
+  <data name="PAGE_MODE_DEFAULT" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="PAGE_MODE_HOVERING" xml:space="preserve">
+    <value>Hovering</value>
+  </data>
+  <data name="PAGE_MODE_KNIFEEDGE" xml:space="preserve">
+    <value>Knife edge</value>
+  </data>
+  <data name="PAGE_MODE_MANUAL" xml:space="preserve">
+    <value>Manual</value>
+  </data>
+  <data name="PAGE_MODE_MIX" xml:space="preserve">
+    <value>Mode:</value>
+  </data>
+  <data name="PAGE_MODE_MODECHANNELS" xml:space="preserve">
+    <value>Mode Channels</value>
+  </data>
+  <data name="PAGE_MODE_REVERSE" xml:space="preserve">
+    <value>Reverse</value>
+  </data>
+  <data name="PAGE_MODE_SETTING" xml:space="preserve">
+    <value>Flight mode setting</value>
+  </data>
+  <data name="PAGE_MODE_STABILIZE" xml:space="preserve">
+    <value>Stabilize</value>
+  </data>
+  <data name="PAGE_MODE_STABILIZE2" xml:space="preserve">
+    <value>Stabilize2</value>
+  </data>
+  <data name="PAGE_MODE_TAKEOFF" xml:space="preserve">
+    <value>Take off</value>
+  </data>
+  <data name="PAGE_MOUNT_BACK" xml:space="preserve">
+    <value>Backward</value>
+  </data>
+  <data name="PAGE_MOUNT_BOTTOM" xml:space="preserve">
+    <value>Bottom</value>
+  </data>
+  <data name="PAGE_MOUNT_FRONT" xml:space="preserve">
+    <value>Front</value>
+  </data>
+  <data name="PAGE_MOUNT_FRONTBACK" xml:space="preserve">
+    <value>FRONT / BACKWARD</value>
+  </data>
+  <data name="PAGE_MOUNT_NAME" xml:space="preserve">
+    <value>Mount</value>
+  </data>
+  <data name="PAGE_MOUNT_TOP" xml:space="preserve">
+    <value>Top</value>
+  </data>
+  <data name="PAGE_MOUNT_TOPBOTTOM" xml:space="preserve">
+    <value>TOP / BOTTOM</value>
+  </data>
+  <data name="PAGE_OTUPTU_REVERSE" xml:space="preserve">
+    <value>Revcerse</value>
+  </data>
+  <data name="PAGE_OTUPUT_OUTPUT" xml:space="preserve">
+    <value>Output</value>
+  </data>
+  <data name="PAGE_OUTPUT_CENTER" xml:space="preserve">
+    <value>Center</value>
+  </data>
+  <data name="PAGE_OUTPUT_CHANNEL" xml:space="preserve">
+    <value>Channel</value>
+  </data>
+  <data name="PAGE_OUTPUT_DEFAULT" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="PAGE_OUTPUT_MAX" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="PAGE_OUTPUT_MIN" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="PAGE_OUTPUT_PULSE" xml:space="preserve">
+    <value>Pulse</value>
+  </data>
+  <data name="PAGE_OUTPUT_SAVE" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="PAGE_RADIO_CALIBRATION" xml:space="preserve">
+    <value>Calibration</value>
+  </data>
+  <data name="PAGE_RADIO_CENTER" xml:space="preserve">
+    <value>CENTER:</value>
+  </data>
+  <data name="PAGE_RADIO_DEFAULT" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="PAGE_RADIO_INPUTCHANNELS" xml:space="preserve">
+    <value>Input channels</value>
+  </data>
+  <data name="PAGE_RADIO_MAX" xml:space="preserve">
+    <value>MAX:</value>
+  </data>
+  <data name="PAGE_RADIO_MIN" xml:space="preserve">
+    <value>MIN:</value>
+  </data>
+  <data name="PAGE_RADIO_PROTOCOL" xml:space="preserve">
+    <value>Protocol</value>
+  </data>
+  <data name="PAGE_RADIO_RADIOHZ" xml:space="preserve">
+    <value>Radio signal HZ</value>
+  </data>
+  <data name="PAGE_RADIO_SAVE" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="PAGE_REPORTS_COUNT" xml:space="preserve">
+    <value>Count</value>
+  </data>
+  <data name="PAGE_REPORTS_EXPORT" xml:space="preserve">
+    <value>Export(&amp;E)</value>
+  </data>
+  <data name="PAGE_REPORTS_FID" xml:space="preserve">
+    <value>FID</value>
+  </data>
+  <data name="PAGE_REPORTS_REPORTS" xml:space="preserve">
+    <value>Reports</value>
+  </data>
+  <data name="PAGE_REPORTS_RESET" xml:space="preserve">
+    <value>Reset(&amp;R)</value>
+  </data>
+  <data name="PAGE_REPORTS_WDT" xml:space="preserve">
+    <value>WDT</value>
+  </data>
+  <data name="TAB_BOARD" xml:space="preserve">
+    <value>Board</value>
+  </data>
+  <data name="TAB_FIRMWARE" xml:space="preserve">
+    <value>Firmware</value>
+  </data>
+  <data name="TAB_MODE" xml:space="preserve">
+    <value>Flight mode</value>
+  </data>
+  <data name="TAB_OUTPUT" xml:space="preserve">
+    <value>Output</value>
+  </data>
+  <data name="TAB_RADIO" xml:space="preserve">
+    <value>Radio</value>
+  </data>
+  <data name="TAB_REPORT" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="TAB_SENSOR" xml:space="preserve">
+    <value>Sensor</value>
+  </data>
+</root>

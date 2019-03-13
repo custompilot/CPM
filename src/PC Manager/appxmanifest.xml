@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <Package
+       xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
+       xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
+       xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities">
+      <Identity Name="Custompilot Micro"
+        ProcessorArchitecture="x64"
+        Publisher="CN=Custompilot, O=Custompilot, L=Gyeonggi-do, S=Gyeonggi-do, C=Korea"
+        Version="1.0.0.0" />
+      <Properties>
+        <DisplayName>Custompilot Micro PC Manager</DisplayName>
+        <PublisherDisplayName>Reserved</PublisherDisplayName>
+        <Description>No description entered</Description>
+        <Logo>***YOUR_PACKAGE_RELATIVE_DISPLAY_LOGO_PATH_HERE***</Logo>
+      </Properties>
+      <Resources>
+        <Resource Language="en-us" />
+      </Resources>
+      <Dependencies>
+        <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.14316.0" MaxVersionTested="10.0.14316.0" />
+      </Dependencies>
+      <Capabilities>
+        <rescap:Capability Name="runFullTrust"/>
+      </Capabilities>
+      <Applications>
+        <Application Id="Custompilot micro pc manager" Executable="CustomPilot.exe" EntryPoint="Windows.FullTrustApplication">
+          <uap:VisualElements
+           BackgroundColor="#464646"
+           DisplayName="Custompilot Micro"
+           Square150x150Logo="Assets\logo.ico"
+           Square44x44Logo="Assets\logo.ico"
+           Description="Custompilot Micro Flight Controller" />
+        </Application>
+      </Applications>
+    </Package>
